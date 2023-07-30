@@ -1,0 +1,48 @@
+.education-container{
+    /* padding: 50px; */
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    gap: 60px;
+}
+.edu-icon{
+    height: 90px;
+    width: 90px;
+    border-radius: 60px;
+}
+.edu-content{
+    gap: 40px;
+    
+}
+.divider{
+    width:3px;
+    height: 70px;
+}
+.circle{
+    height: 35px;
+    width: 35px;
+    border-radius: 20px;
+}
+.circle-sm{
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+}
+.end-dot{
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+
+}
+.cllg-name{
+    width: 50% ;
+   text-align: end;
+
+}
+.description{
+   text-align: start;
+    width: 50%;
+}
+
+

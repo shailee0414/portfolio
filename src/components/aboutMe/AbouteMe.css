@@ -1,0 +1,68 @@
+.profile-container{
+    padding: 100px;
+    padding-bottom: 30px !important;
+    gap: 100px;
+}
+.colunm-1{
+    width: 45%;
+}
+.profile-item{
+    flex: 1;
+    gap: 40px;
+}
+.details-container {
+    flex: 50%;
+}
+.image-container{
+    width: 50%;
+    position: relative;
+    width: 360px;
+    height: 410px;
+    border-width: 10px;
+    border-style:solid ;
+    border-image:  linear-gradient(to bottom, rgba(12, 237, 173, 0.904), rgba(61, 11, 170, 0.73)) 1;
+}
+.profile-img{
+    clip-path: inset(40px 50px 180px 0);
+    position: absolute;
+}
+.frame{
+    width: 360px;
+    height: 410px;
+    border-width: 10px;
+    border-style:solid ;
+    border-image:  linear-gradient(to bottom, rgba(12, 237, 173, 0.904), rgba(61, 11, 170, 0.73)) 1;
+}
+
+li{
+    list-style: none;
+}
+.my-interest{
+    align-items: start;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 50px;
+    height: 150px;
+}
+.icon-container{
+    gap: 20px;
+}
+.icon{
+   
+    height: 90px;
+    width: 90px;
+    border-radius: 60px;
+}
+.int-name{
+    font-size: 25px;
+    color: white !important; 
+    font-weight: 800;
+    display: none;
+}
+.icon:hover + .int-name{
+    display: block;
+}
+.icon:hover{
+    background-color: #f3ec78;
+    background-image:  linear-gradient(to bottom, #00f298, #07f7f7);
+}
