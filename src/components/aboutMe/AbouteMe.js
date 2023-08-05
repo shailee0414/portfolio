@@ -20,12 +20,13 @@ const AboutMe = (profileData) => {
             <img
               className="profile-img"
               alt=""
-              src="https://img.freepik.com/free-photo/beautiful-confident-entrepreneur_1098-21617.jpg?size=626&ext=jpg&ga=GA1.1.50988996.1682191981&semt=ais"
+              src={require("../../assets/profile.jpeg")}
+              // src="https://img.freepik.com/free-photo/beautiful-confident-entrepreneur_1098-21617.jpg?size=626&ext=jpg&ga=GA1.1.50988996.1682191981&semt=ais"
             />
           </div>
         </div>
 
-        <div className="details-container">
+        <div className="details-container d-flex flex-column align-items-start">
           <div className="bold-title">ABOUT ME</div>
           <p className="text">
             Hello! I’m Oliver Queen. Web Developer with over 8 years of
@@ -70,7 +71,7 @@ const AboutMe = (profileData) => {
       </div>
       <div className="interest">
         <div className="bold-title ">INTERESTS</div>
-        <div className="my-interest flex-row">
+        <div className="my-interest flex-row flex-wrap">
           <div className="icon-container flex-column-start">
             <span
               className="icon flex-column-center border-clr"

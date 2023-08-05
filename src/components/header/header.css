@@ -1,4 +1,19 @@
 .header{
-    background-color:whitesmoke
-    /* opacity: 0.8; */
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    opacity: 0.7;
+    background-color: black;
+    /* background-color: transparent; */
+    padding: 30px 150px;
+    /* border-bottom: 1px solid gray; */
+}
+a{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration-line: none;
+}
+a:hover{
+    color: #00f298;
 }

@@ -1,0 +1,81 @@
+.work-container{
+    padding: 80px 100px;
+    width: 100%;
+    border-style:solid ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:linear-gradient(to bottom, rgba(12, 237, 173, 0.904), rgba(61, 11, 170, 0.73)) , url("https://as1.ftcdn.net/v2/jpg/06/26/72/56/1000_F_626725609_kAcuhye4oDaVG5leKd7GP7lnm38ZErDV.jpg");
+
+}
+.title-container{
+    
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.pointer{
+    cursor: pointer;
+}
+.project-item{
+    position: relative;
+    gap: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    width: 350px;
+    height: 350px;
+    border: 1px solid rgb(229, 225, 225);
+    color: #9da2aa;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to top, #050505 , #35373b);
+}
+.label{
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.title{
+    color: #98efe2;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.technology{
+    color: black;
+    padding: 4px 20px;
+    border-radius: 20px;
+    background-color: #9da2aa;
+}
+.project-item:hover{
+    box-shadow: 10px 10px 10px  #44405c ;
+    .project-description {
+       
+        display: block;
+        position: absolute;
+        color: black;
+        padding: 20px;
+        border-radius: 20px;
+        width: 348px ;
+        height: 348px;
+        top: 0px;
+        left: 0px;
+        opacity: 0.99;
+        background-image: linear-gradient(to top, #5b4fa0 , hsl(252, 24%, 96%));
+
+        
+    }
+}
+.project-description {
+    width: 100px;
+    height: 100px;
+    display: none;
+    transition: width 2s;
+
+}
+.hover-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+.hover-description{
+    font-size: 18px;
+}
+

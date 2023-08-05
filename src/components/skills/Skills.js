@@ -9,7 +9,7 @@ const Skills = () => {
       <div className="d-flex flex-row skill-content">
         <div className="skill-col-1 flex-grow-1 d-flex flex-column ">
           <div>
-            <div className="skill-title">HTML - 90% Experience</div>
+            <div className="skill-title">HTML - 90% </div>
             <div className="progress">
               <div
                 className="progress-bar progress-bar-success"
@@ -18,9 +18,6 @@ const Skills = () => {
                 aria-valuemin="0"
                 aria-valuemax="100"
                 style={{ width: "40%" }}
-              ></div>
-              <div
-                style={{ height: "10px", width: "10px", position: "absolute" }}
               ></div>
             </div>
           </div>
@@ -35,9 +32,6 @@ const Skills = () => {
                 aria-valuemax="100"
                 style={{ width: "40%" }}
               ></div>
-              <div
-                style={{ height: "10px", width: "10px", position: "absolute" }}
-              ></div>
             </div>
           </div>
           <div>
@@ -50,9 +44,6 @@ const Skills = () => {
                 aria-valuemin="0"
                 aria-valuemax="100"
                 style={{ width: "40%" }}
-              ></div>
-              <div
-                style={{ height: "10px", width: "10px", position: "absolute" }}
               ></div>
             </div>
           </div>
@@ -69,9 +60,6 @@ const Skills = () => {
                 aria-valuemax="100"
                 style={{ width: "40%" }}
               ></div>
-              <div
-                style={{ height: "10px", width: "10px", position: "absolute" }}
-              ></div>
             </div>
           </div>
           <div>
@@ -85,9 +73,6 @@ const Skills = () => {
                 aria-valuemax="100"
                 style={{ width: "40%" }}
               ></div>
-              <div
-                style={{ height: "10px", width: "10px", position: "absolute" }}
-              ></div>
             </div>
           </div>
           <div>
@@ -100,9 +85,6 @@ const Skills = () => {
                 aria-valuemin="0"
                 aria-valuemax="100"
                 style={{ width: "40%" }}
-              ></div>
-              <div
-                style={{ height: "10px", width: "10px", position: "absolute" }}
               ></div>
             </div>
           </div>

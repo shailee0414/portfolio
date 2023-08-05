@@ -1,6 +1,6 @@
 .skill-container{
     gap: 60px;
-    padding: 100px 150px;
+    padding: 80px 100px;
 
 }
 .skill-content{
@@ -35,4 +35,13 @@
     font-size: 20px ;
     font-weight: 700;
     margin-bottom: 10px !important;
+}
+@media(max-width:700px){
+    .skill-container{
+        padding: 80px 20px !important;
+    }
+    .skill-content{
+        gap: 60px !important;
+        flex-direction: column !important;
+    }
 }

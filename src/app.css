@@ -6,8 +6,9 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
-    font-size: 40px;
+    font-size: 42px;
     font-weight: bold;
+    word-spacing: 0.7rem;
 }
 .thin-title{
     background-color: #f3ec78;
@@ -18,9 +19,12 @@
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
     font-size: 20px;
+    font-weight: 600;
+    word-spacing: 0.4rem;
 
 }
 .medium-title{
+    word-spacing: 0.7rem;
     background-color: #f3ec78;
     background-image:  linear-gradient(to bottom, #00f298, #07f7f7);
     background-size: 100%;
@@ -34,16 +38,16 @@
 .text{
     color: white;
     font-size: 18px;
-    font-weight:100 !important;
+    font-weight:300 !important;
     line-height: 30px;
     word-spacing: 3px;
-    margin-top :1em;
+    /* margin-top :1em; */
 
 }
 .medium-text{
     font-size: 20px;
     color: white;
-    font-weight: 800;
+    font-weight: 600;
 }
 
 
@@ -94,4 +98,23 @@
 }
 .border-clr{
     border: #00f298 2px solid ;
+}
+@media (max-width:700px){
+    .medium-text{
+        font-size: 18px !important;
+    }
+    .medium-title{
+        font-size: 22px !important;
+    }
+    .thin-title{
+        font-size: 18px;
+    }
+    .text{
+        word-spacing: 2px !important;
+        font-size: 18px !important;
+        line-height: 24px;
+    }
+    .bold-title{
+        font-size: 32px;
+    }
 }

@@ -3,11 +3,16 @@
     linear-gradient(to bottom, rgba(12, 237, 173, 0.904), rgba(61, 11, 170, 0.73)),
     url('https://img.freepik.com/free-photo/female-hand-typing-keyboard-laptop_1150-15742.jpg?w=1480&t=st=1687691375~exp=1687691975~hmac=9b27abc930eca915f4380e8bbec9d4c13c2fcdf34d3a1cbc9873b039d50aac65');
     width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
     bottom: 0;
     left: 0;
-    padding-left: 2em;
-    padding: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10em;
+    /* padding: 15rem; */
 
 }
 * {
@@ -16,12 +21,22 @@
   }
 
   #introduction .name{
-    font-size: 2em;
-    font-family: "Audiowide", sans-serif;
+
+    font-size: 5em;
     color: whitesmoke;
 }
 #introduction .designation{
-    font-size: 1em;
+font-size: 2em;
     color: whitesmoke;
-    font-family: "Audiowide", sans-serif;
 }
+
+@media (max-width: 700px) {
+    #introduction {
+    height: 80vh !important;
+    padding-left: 2em !important;
+    /* padding: 20px !important; */
+    }
+    .name{
+        font-size: 3rem !important;
+    }
+  }
