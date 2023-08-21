@@ -2,93 +2,30 @@ import React from "react";
 import "../../app.css";
 import "./Skills.css";
 
-const Skills = () => {
+const Skills = ({ skills }) => {
   return (
     <div className="background-grey skill-container d-flex flex-column justify-content-center align-items-center">
-      <div className="bold-title"> PROFETIONAL SKILLS</div>
+      <div className="bold-title"> PROFESSIONAL SKILLS</div>
       <div className="d-flex flex-row skill-content">
-        <div className="skill-col-1 flex-grow-1 d-flex flex-column ">
-          <div>
-            <div className="skill-title">HTML - 90% </div>
-            <div className="progress">
-              <div
-                className="progress-bar progress-bar-success"
-                role="progressbar"
-                aria-valuenow="40"
-                aria-valuemin="0"
-                aria-valuemax="100"
-                style={{ width: "40%" }}
-              ></div>
+        {skills?.map((skill, index) => {
+          return (
+            <div className="skill-item" key={`skill_${index}`}>
+              <div className="skill-title">
+                {skill?.skillName} - {skill?.skillValue}%{" "}
+              </div>
+              <div className="progress">
+                <div
+                  className="progress-bar progress-bar-success"
+                  role="progressbar"
+                  aria-valuenow={`${skill?.skillValue}`}
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style={{ width: `${skill?.skillValue}%` }}
+                ></div>
+              </div>
             </div>
-          </div>
-          <div>
-            <div className="skill-title">HTML - 90% </div>
-            <div className="progress">
-              <div
-                className="progress-bar progress-bar-success"
-                role="progressbar"
-                aria-valuenow="40"
-                aria-valuemin="0"
-                aria-valuemax="100"
-                style={{ width: "40%" }}
-              ></div>
-            </div>
-          </div>
-          <div>
-            <div className="skill-title">HTML - 90% </div>
-            <div className="progress">
-              <div
-                className="progress-bar progress-bar-success"
-                role="progressbar"
-                aria-valuenow="40"
-                aria-valuemin="0"
-                aria-valuemax="100"
-                style={{ width: "40%" }}
-              ></div>
-            </div>
-          </div>
-        </div>
-        <div className="flex-grow-1  skill-col-1 d-flex flex-column">
-          <div>
-            <div className="skill-title">HTML - 90% </div>
-            <div className="progress">
-              <div
-                className="progress-bar progress-bar-success"
-                role="progressbar"
-                aria-valuenow="40"
-                aria-valuemin="0"
-                aria-valuemax="100"
-                style={{ width: "40%" }}
-              ></div>
-            </div>
-          </div>
-          <div>
-            <div className="skill-title">HTML - 90% </div>
-            <div className="progress">
-              <div
-                className="progress-bar progress-bar-success"
-                role="progressbar"
-                aria-valuenow="40"
-                aria-valuemin="0"
-                aria-valuemax="100"
-                style={{ width: "40%" }}
-              ></div>
-            </div>
-          </div>
-          <div>
-            <div className="skill-title">HTML - 90% </div>
-            <div className="progress">
-              <div
-                className="progress-bar progress-bar-success"
-                role="progressbar"
-                aria-valuenow="40"
-                aria-valuemin="0"
-                aria-valuemax="100"
-                style={{ width: "40%" }}
-              ></div>
-            </div>
-          </div>
-        </div>
+          );
+        })}
       </div>
     </div>
   );

@@ -4,10 +4,14 @@
 
 }
 .skill-content{
-    gap: 100px;
+    flex-wrap: wrap;
+    gap: 60px;
     width: 100%;
     
         
+}
+.skill-item{
+    width: 45%;
 }
 .skill-col-1{
     gap: 60px;

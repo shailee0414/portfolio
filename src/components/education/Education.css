@@ -55,7 +55,8 @@
   border-radius: 50%;
 }
 .divider-sm {
-  height: 220px;
+  /* height: 220px; */
+  height: 100%;
   width: 3px;
 }
 .screen-small {
@@ -65,6 +66,9 @@
     display: flex !important;
     flex-direction: column !important;
     display: none !important;
+}
+.sm-description-cont{
+  padding-bottom: 60px;
 }
 @media (max-width: 700px) {
   .education-container {
@@ -76,5 +80,8 @@
   .screen-small {
     
     display: block !important;
+  }
+  .divider{
+    height: 110px !important;
   }
 }

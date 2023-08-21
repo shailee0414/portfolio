@@ -11,7 +11,6 @@ import "../../app.css";
 
 const AboutMe = (profileData) => {
   const [iconColor, setIconColor] = useState();
-  console.log("@@@@@@", profileData);
   return (
     <div className="profile-container flex-column background-dark">
       <div className="profile-item flex-row-center">
@@ -19,52 +18,59 @@ const AboutMe = (profileData) => {
           <div className="image-container  flex-column-start">
             <img
               className="profile-img"
-              alt=""
+              alt="profile"
               src={require("../../assets/profile.jpeg")}
-              // src="https://img.freepik.com/free-photo/beautiful-confident-entrepreneur_1098-21617.jpg?size=626&ext=jpg&ga=GA1.1.50988996.1682191981&semt=ais"
             />
           </div>
         </div>
 
         <div className="details-container d-flex flex-column align-items-start">
           <div className="bold-title">ABOUT ME</div>
-          <p className="text">
-            Hello! I’m Oliver Queen. Web Developer with over 8 years of
-            experience. Experienced with all stages of the development cycle for
-            dynamic web projects. Having an in-depth knowledge including
-            advanced HTML5, CSS3, JavaScript, jQuery, Angular JS. Strong
-            background in management and leadership.
-          </p>
+          <p className="text">{profileData?.profileData?.about}</p>
           <ul>
             <li>
               <span className="thin-title"> NAME : </span>{" "}
               <span className="medium-text">
                 {" "}
-                <span className="medium-text"> Shailee Yadav</span>
+                <span className="medium-text">
+                  {" "}
+                  {profileData?.profileData?.name}
+                </span>
               </span>
             </li>
-            <li>
+            {/* <li>
               <span className="thin-title"> DATE OF BIRTH :</span>{" "}
               <span className="medium-text"> Shailee Yadav</span>
-            </li>
+            </li> */}
 
             <li>
               <span className="thin-title"> NATIONALITY :</span>{" "}
-              <span className="medium-text"> Shailee Yadav</span>
+              <span className="medium-text">
+                {profileData?.profileData?.nationality}{" "}
+              </span>
             </li>
 
             <li>
               <span className="thin-title"> ADDRESS :</span>{" "}
-              <span className="medium-text"> Shailee Yadav</span>
+              <span className="medium-text">
+                {" "}
+                {profileData?.profileData?.address}
+              </span>
             </li>
 
             <li>
               <span className="thin-title"> E-MAIL :</span>{" "}
-              <span className="medium-text"> Shailee Yadav</span>
+              <span className="medium-text">
+                {" "}
+                {profileData?.profileData?.email}
+              </span>
             </li>
             <li>
               <span className="thin-title"> PHONE NO :</span>{" "}
-              <span className="medium-text"> Shailee Yadav</span>
+              <span className="medium-text">
+                {" "}
+                {profileData?.profileData?.phoneNo}
+              </span>
             </li>
           </ul>
         </div>
@@ -78,7 +84,6 @@ const AboutMe = (profileData) => {
               onMouseEnter={(e) => setIconColor("drawing")}
               onMouseLeave={(e) => setIconColor(null)}
             >
-              {console.log(iconColor)}
               <PencilFill
                 className="ml-4"
                 color={iconColor === "drawing" ? "white " : "#00f298"}

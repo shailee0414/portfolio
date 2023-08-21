@@ -21,9 +21,15 @@
     border-style:solid ;
     border-image:  linear-gradient(to bottom, rgba(12, 237, 173, 0.904), rgba(61, 11, 170, 0.73)) 1;
 }
+.profile-img:hover{
+    top: -40px;
+    right: -40px;
+}
 .profile-img{
     top: 40px;
     right: 40px;
+    transition: top 2s ;
+    transition: right 2s;
     /* clip-path: inset(40px 50px 180px 0); */
     position: absolute;
 }
@@ -52,9 +58,16 @@ li{
     gap: 50px;
 }
 .icon-container{
-    height: 140px;
-    gap: 10px;
+    /* border: 1px solid red; */
+    height: 160px;
+    gap: 40px;
+    transition: gap 2s;
 }
+.icon-container:hover{
+    gap: 8px;
+}
+
+
 .icon{
    
     height: 90px;
