@@ -1,5 +1,5 @@
 import React from "react";
-import { MortarboardFill } from "react-bootstrap-icons";
+import { MortarboardFill, Bank2 } from "react-bootstrap-icons";
 import "./Education.css";
 import "../../app.css";
 
@@ -13,7 +13,11 @@ const Education = ({ educationDetails, page, background }) => {
         <div className="flex-column-center">
           <div>
             <span className=" edu-icon flex-column-center border-clr">
-              <MortarboardFill color="#00f298" size={40} />
+              {page === "EDUCATION" ? (
+                <MortarboardFill color="#00f298" size={40} />
+              ) : (
+                <Bank2 color="#00f298" size={40} />
+              )}
             </span>
           </div>
           {educationDetails?.map((item, index) => {
@@ -83,7 +87,11 @@ const Education = ({ educationDetails, page, background }) => {
         <div className="at-small-screen d-flex flex-column align-items-start">
           <div className="flex-column-center width-60">
             <span className=" edu-icon-sm flex-column-center border-clr">
-              <MortarboardFill color="#00f298" size={30} />
+              {page === "EDUCATION" ? (
+                <MortarboardFill color="#00f298" size={30} />
+              ) : (
+                <Bank2 color="#00f298" size={30} />
+              )}
             </span>
             <div className="divider background-green"></div>
           </div>
