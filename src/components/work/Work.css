@@ -4,7 +4,7 @@
     border-style:solid ;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image:linear-gradient(to bottom, rgba(12, 237, 173, 0.904), rgba(61, 11, 170, 0.73)) , url("https://as1.ftcdn.net/v2/jpg/06/26/72/56/1000_F_626725609_kAcuhye4oDaVG5leKd7GP7lnm38ZErDV.jpg");
+    background-image:linear-gradient(to bottom, rgba(1, 11, 5, 0.904), rgba(29, 49, 62, 0.73)) , url("https://as1.ftcdn.net/v2/jpg/06/26/72/56/1000_F_626725609_kAcuhye4oDaVG5leKd7GP7lnm38ZErDV.jpg");
 
 }
 .title-container{
@@ -16,26 +16,19 @@
     cursor: pointer;
 }
 .project-item{
-    transition: width 2s;
     position: relative;
     gap: 30px;
     padding: 20px;
     border-radius: 20px;
     width: 350px;
-    height: 350px;
-    border: 1px solid rgb(229, 225, 225);
+    height: 420px;
+    border: 1px solid rgb(151, 149, 149);
     color: #9da2aa;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: linear-gradient(to top, #050505 , #35373b);
+    background-image: linear-gradient(to top, #050505 , #2f3540);
 }
 .label{
-    font-size: 20px;
-    font-weight: 400;
-
-}
-.title{
-    color: #98efe2;
     font-size: 20px;
     font-weight: 400;
 
@@ -47,31 +40,31 @@
     background-color: #9da2aa;
 }
 .project-item:hover{
-    height: 400px;
-    width: 400px;
-    box-shadow: 10px 10px 10px  #44405c ;
+   
+    box-shadow: 10px 10px 10px  #262f3a ;
+    .pr-title{
+        display: none;
+    }
     .project-description {
        
         display: block;
         position: absolute;
-        color: black;
+        color:  rgb(166, 189, 193);
         padding: 20px;
         border-radius: 20px;
-        height: 400px;
-        width: 400px;
         top: 0px;
         left: 0px;
-        opacity: 0.99;
-        background-image: linear-gradient(to top, #5b4fa0 , hsl(252, 24%, 96%));
+        opacity: 0.9;
+        background-image:linear-gradient(to top, #0a0a0a , #282f3d);
 
         
     }
 }
 .project-description {
-    width: 100px;
-    height: 100px;
+    line-height: 23px;
+    width: 348px;
+    height: 418px;
     display: none;
-    transition: width 2s;
 
 }
 .hover-title{
@@ -80,5 +73,6 @@
 }
 .hover-description{
     font-size: 18px;
+    font-weight: 300;
 }
 

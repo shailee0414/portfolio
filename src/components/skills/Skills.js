@@ -10,7 +10,7 @@ const Skills = ({ skills }) => {
         {skills?.map((skill, index) => {
           return (
             <div className="skill-item" key={`skill_${index}`}>
-              <div className="skill-title">
+              <div className="medium-text">
                 {skill?.skillName} - {skill?.skillValue}%{" "}
               </div>
               <div className="progress">

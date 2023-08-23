@@ -1,6 +1,7 @@
 .bold-title{
+    opacity: 0.7;
     background-color: #f3ec78;
-    background-image: linear-gradient(to right, #00f298, #07f7f7);
+    background-image: linear-gradient(to right, #5be7b4, #b9f3f3);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -11,42 +12,32 @@
     word-spacing: 0.7rem;
 }
 .thin-title{
-    background-color: #f3ec78;
-    background-image:  linear-gradient(to right, #00f298, #07f7f7);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-text-fill-color: transparent;
+    opacity: 0.8;
+    color: #92dec2;
     font-size: 20px;
     font-weight: 600;
     word-spacing: 0.4rem;
 
 }
 .medium-title{
-    word-spacing: 0.7rem;
-    background-color: #f3ec78;
-    background-image:  linear-gradient(to bottom, #00f298, #07f7f7);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-text-fill-color: transparent;
+    opacity: 0.8;
+    word-spacing: 0.3rem;
     font-weight: bold;
+    color: #92dec2;
     font-size: 25px;
 }
 .text{
-    color: white;
+    color: #a6bdc1;
     font-size: 18px;
     font-weight:300 !important;
     line-height: 30px;
     word-spacing: 3px;
-    /* margin-top :1em; */
 
 }
 .medium-text{
+   
     font-size: 20px;
-    color: white;
+    color: rgb(185, 217, 224);
     font-weight: 600;
 }
 
@@ -91,13 +82,14 @@
 }
 .background-green-grad{
     background-color: #f3ec78;
-    background-image:  linear-gradient(to bottom, #00f298, #07f7f7);
+    background-image: linear-gradient(to right, #5be7b4, #b9f3f3);
 }
 .background-green{
-    background-color: #00f298;
+    opacity: 0.8;
+    background-color: #5be7b4;
 }
-.border-clr{
-    border: #00f298 2px solid ;
+.border-clr{opacity: 0.8;
+    border: #5be7b4 2px solid ;
 }
 @media (max-width:700px){
     .medium-text{

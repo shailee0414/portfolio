@@ -45,7 +45,7 @@ const Contact = () => {
           ></textarea>
         </div>
         <input
-          className="send-mesaage thin-title"
+          className="send-message thin-title"
           type="submit"
           value="Send Message"
         />

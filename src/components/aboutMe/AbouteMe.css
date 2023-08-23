@@ -19,22 +19,19 @@
     height: 410px;
     border-width: 10px;
     border-style:solid ;
-    border-image:  linear-gradient(to bottom, rgba(12, 237, 173, 0.904), rgba(61, 11, 170, 0.73)) 1;
+    opacity: 0.8;
+    border-image:   linear-gradient(to bottom, #5be7b4, #b9f3f3)1;
 }
-.profile-img:hover{
-    top: -40px;
-    right: -40px;
-}
+
 .profile-img{
     top: 40px;
     right: 40px;
     transition: top 2s ;
     transition: right 2s;
-    /* clip-path: inset(40px 50px 180px 0); */
+    opacity: 0.9;
     position: absolute;
 }
 .frame{
-    transition: width 2s, height 4s;
 
     width: 360px;
     height: 410px;
@@ -58,7 +55,6 @@ li{
     gap: 50px;
 }
 .icon-container{
-    /* border: 1px solid red; */
     height: 160px;
     gap: 40px;
     transition: gap 2s;
@@ -69,6 +65,7 @@ li{
 
 
 .icon{
+    opacity: 0.6;
    
     height: 90px;
     width: 90px;
@@ -76,7 +73,6 @@ li{
 }
 .int-name{
     font-size: 25px;
-    color: white !important; 
     font-weight: 600;
     display: none;
 }
@@ -84,8 +80,9 @@ li{
     display: block;
 }
 .icon:hover{
+    border: none;
     background-color: #f3ec78;
-    background-image:  linear-gradient(to bottom, #00f298, #07f7f7);
+    background-image:  linear-gradient(to bottom, #5be7b4, #b9f3f3);
 }
 @media (max-width: 700px) {
     .profile-item {

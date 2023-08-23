@@ -22,7 +22,10 @@ const App = () => {
   return (
     <div style={{ overflowX: "hidden" }}>
       <>
-        <Header />
+        <Header
+          linkedin={profileData?.profile?.profileData?.linkedin}
+          github={profileData?.profile?.profileData?.github}
+        />
         <Introduction />
         <AbouteMe profileData={profileData?.profile?.profileData} />
         <Education

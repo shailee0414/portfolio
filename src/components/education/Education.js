@@ -14,9 +14,9 @@ const Education = ({ educationDetails, page, background }) => {
           <div>
             <span className=" edu-icon flex-column-center border-clr">
               {page === "EDUCATION" ? (
-                <MortarboardFill color="#00f298" size={40} />
+                <MortarboardFill color="#5be7b4" size={40} opacity={"0.8"} />
               ) : (
-                <Bank2 color="#00f298" size={40} />
+                <Bank2 color="#5be7b4" size={40} opacity={"0.8"} />
               )}
             </span>
           </div>
@@ -88,9 +88,9 @@ const Education = ({ educationDetails, page, background }) => {
           <div className="flex-column-center width-60">
             <span className=" edu-icon-sm flex-column-center border-clr">
               {page === "EDUCATION" ? (
-                <MortarboardFill color="#00f298" size={30} />
+                <MortarboardFill color="#5be7b4" size={30} opacity={"0.8"} />
               ) : (
-                <Bank2 color="#00f298" size={30} />
+                <Bank2 color="#5be7b4" size={30} opacity={"0.8"} />
               )}
             </span>
             <div className="divider background-green"></div>

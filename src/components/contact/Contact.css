@@ -40,15 +40,16 @@ textarea:focus{
     border-bottom-width:2px ;
     border-image:  linear-gradient(to right, rgba(12, 237, 173, 0.904), rgba(61, 11, 170, 0.73)) 1;
 }
-.send-mesaage{
+.send-message{
     margin-top: 60px;
     border-style:solid ;
     padding: 10px 20px;
+    background-color: #22252c;
     border-width:2px ;
-    border-image:  linear-gradient(to bottom, #00f298, #07f7f7) 1;
+    border-image:  linear-gradient(to bottom, #5be7b4, #b9f3f3) 1;
 }
-.send-mesaage:hover{
-    background-color: #17d397;
+.send-message:hover{
+    background-image:  linear-gradient(to bottom, #5be7b4, #b9f3f3);
     font-weight: 600;
     cursor: pointer;
     

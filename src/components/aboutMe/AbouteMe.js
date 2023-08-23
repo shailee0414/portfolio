@@ -86,11 +86,12 @@ const AboutMe = (profileData) => {
             >
               <PencilFill
                 className="ml-4"
-                color={iconColor === "drawing" ? "white " : "#00f298"}
+                color={iconColor === "drawing" ? "#22252c " : "#5be7b4"}
                 size={40}
+                opacity={"0.8"}
               />
             </span>
-            <span className="int-name">Drawing</span>
+            <span className="int-name medium-text">Drawing</span>
           </div>
           <div className="icon-container flex-column-start">
             <span
@@ -100,11 +101,12 @@ const AboutMe = (profileData) => {
             >
               <AirplaneFill
                 className="ml-4"
-                color={iconColor === "travel" ? "white " : "#00f298"}
+                color={iconColor === "travel" ? "#22252c " : "#5be7b4"}
                 size={40}
+                opacity={"0.8"}
               />
             </span>
-            <span className="int-name">Travel</span>
+            <span className="int-name medium-text">Travel</span>
           </div>
           <div className="icon-container flex-column-start">
             <span
@@ -114,11 +116,12 @@ const AboutMe = (profileData) => {
             >
               <MusicNoteBeamed
                 className="ml-4"
-                color={iconColor === "music" ? "white " : "#00f298"}
+                color={iconColor === "music" ? "#22252c " : "#5be7b4"}
                 size={40}
+                opacity={"0.8"}
               />
             </span>
-            <span className="int-name">Music</span>
+            <span className="int-name medium-text">Music</span>
           </div>
           <div className="icon-container flex-column-start">
             <span
@@ -127,12 +130,13 @@ const AboutMe = (profileData) => {
               onMouseLeave={(e) => setIconColor(null)}
             >
               <CupHotFill
+                opacity={"0.8"}
                 className="ml-4"
-                color={iconColor === "coffee" ? "white " : "#00f298"}
+                color={iconColor === "coffee" ? "#22252c " : "#5be7b4"}
                 size={40}
               />
             </span>
-            <span className="int-name">Coffee</span>
+            <span className="int-name medium-text">Coffee</span>
           </div>
 
           <div className="icon-container flex-column-start">
@@ -142,12 +146,13 @@ const AboutMe = (profileData) => {
               onMouseLeave={(e) => setIconColor(null)}
             >
               <BrushFill
+                opacity={"0.8"}
                 className="ml-4"
-                color={iconColor === "painting" ? "white " : "#00f298"}
+                color={iconColor === "painting" ? "#22252c " : "#5be7b4"}
                 size={40}
               />
             </span>
-            <span className="int-name">Painting</span>
+            <span className="int-name medium-text ">Painting</span>
           </div>
         </div>
       </div>
