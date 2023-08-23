@@ -31,14 +31,16 @@ form{
     width: 100%;
 }
 input:focus{
+    opacity: 0.5;
     border-bottom-width:2px ;
-    border-image:  linear-gradient(to right, rgba(12, 237, 173, 0.904), rgba(61, 11, 170, 0.73)) 1;
+    border-image:  linear-gradient(to right, #5be7b4, #b9f3f3)  1;
     
     
 }
 textarea:focus{
-    border-bottom-width:2px ;
-    border-image:  linear-gradient(to right, rgba(12, 237, 173, 0.904), rgba(61, 11, 170, 0.73)) 1;
+    opacity: 0.5;
+    border-bottom:2px ;
+    border-image:  linear-gradient(to right, #5be7b4, #b9f3f3)  1;
 }
 .send-message{
     margin-top: 60px;

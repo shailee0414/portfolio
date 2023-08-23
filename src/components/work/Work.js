@@ -26,13 +26,12 @@ const Work = ({ projects }) => {
                 className="project-item d-flex flex-column  justify-content-between pointer"
               >
                 <div className="project-description ">
-                  <div className="d-flex flex-column gap-1">
-                    <div className="pointer align-self-end">
-                      <a href={item?.gitRepo}>
-                        <Github size={40} color="#a6bdc1" />
-                      </a>
+                  <div className="d-flex flex-column gap-3">
+                    <div className="pointer d-flex justify-content-between align-items-center">
+                      <div className="thin-title">DESCRIPTION </div>
+                      <Github size={40} color="#a6bdc1" />
                     </div>
-                    <div className="thin-title">DESCRIPTION </div>
+
                     <div className="hover-description ">
                       {item?.description}{" "}
                     </div>

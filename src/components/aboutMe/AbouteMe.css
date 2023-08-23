@@ -2,7 +2,7 @@
     padding: 100px;
     gap: 50px;
 }
-.colunm-1{
+.column-1{
     width: 45%;
 }
 .profile-item{
@@ -95,9 +95,7 @@ li{
         flex: 100%;
             
     }
-    .image-container{
-        /* width: 100%; */
-    }
+   
    .column-1{
     width: 100%;
     flex: 100%;
@@ -106,10 +104,5 @@ li{
         padding: 100px 20px !important;
     }
     
-    .icon{
-   
-        /* height: 60px;
-        width: 60px;
-        border-radius: 60px; */
-    }
+    
   }

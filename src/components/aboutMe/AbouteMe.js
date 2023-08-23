@@ -14,7 +14,7 @@ const AboutMe = (profileData) => {
   return (
     <div className="profile-container flex-column background-dark">
       <div className="profile-item flex-row-center">
-        <div className="colunm-1 flex-column-center">
+        <div className="column-1 flex-column-center">
           <div className="image-container  flex-column-start">
             <img
               className="profile-img"
@@ -29,46 +29,35 @@ const AboutMe = (profileData) => {
           <p className="text">{profileData?.profileData?.about}</p>
           <ul>
             <li>
-              <span className="thin-title"> NAME : </span>{" "}
+              <span className="thin-title"> NAME: </span>{" "}
               <span className="medium-text">
-                {" "}
-                <span className="medium-text">
-                  {" "}
-                  {profileData?.profileData?.name}
-                </span>
+                {profileData?.profileData?.name}
               </span>
             </li>
-            {/* <li>
-              <span className="thin-title"> DATE OF BIRTH :</span>{" "}
-              <span className="medium-text"> Shailee Yadav</span>
-            </li> */}
 
             <li>
-              <span className="thin-title"> NATIONALITY :</span>{" "}
+              <span className="thin-title"> NATIONALITY: {"  "}</span>{" "}
               <span className="medium-text">
                 {profileData?.profileData?.nationality}{" "}
               </span>
             </li>
 
             <li>
-              <span className="thin-title"> ADDRESS :</span>{" "}
+              <span className="thin-title"> ADDRESS: {"  "}</span>{" "}
               <span className="medium-text">
-                {" "}
                 {profileData?.profileData?.address}
               </span>
             </li>
 
             <li>
-              <span className="thin-title"> E-MAIL :</span>{" "}
+              <span className="thin-title"> E-MAIL: {"  "}</span>{" "}
               <span className="medium-text">
-                {" "}
                 {profileData?.profileData?.email}
               </span>
             </li>
             <li>
-              <span className="thin-title"> PHONE NO :</span>{" "}
+              <span className="thin-title"> PHONE NO: {"  "}</span>{" "}
               <span className="medium-text">
-                {" "}
                 {profileData?.profileData?.phoneNo}
               </span>
             </li>

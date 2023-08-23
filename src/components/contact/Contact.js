@@ -7,7 +7,7 @@ const Contact = () => {
     <div className="contact-container background-dark d-flex flex-column align-items-center">
       <div className="bold-title">CONTACT ME</div>
       <form
-        className="d-flex flex-column align-items-center "
+        className="d-flex flex-column align-items-center gap-5 "
         action="mailto:shaileeyadav130@gmail.com"
         method="post"
         encType="text/plain"
