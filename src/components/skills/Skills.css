@@ -11,6 +11,7 @@
         
 }
 .skill-item{
+    position: relative;
     width: 45%;
 }
 .skill-col-1{
@@ -31,11 +32,32 @@
     z-index:    1;
     position: relative;
     background-color: #f3ec78;
-    opacity: 0.7;
+    opacity: 0.9;
     background-image:  linear-gradient(to right, #5be7b4, #b9f3f3);
-
-
+    animation: progress 2000ms ease-in 1;
 }
+.dot{
+    position: absolute;
+    height: 14px;
+    width: 14px;
+    z-index: 5;
+    opacity: 0.9;
+    background-color: #b9f3f3;
+    bottom: -4px;
+    border-radius: 50%;
+    animation: left 2000ms ease-in 1;
+}
+@keyframes left {
+    from {
+        left: 0;
+    }
+}
+
+@keyframes progress {
+            from {
+                width: 0;
+            }
+        }
 .skill-title{
     color: white;
     font-size: 20px ;

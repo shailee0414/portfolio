@@ -12,6 +12,7 @@
     flex-direction: column;
     justify-content: center;
     padding-left: 10em;
+    animation: padding-left 2000ms ease-in 1;
 
 }
 * {
@@ -20,14 +21,19 @@
   }
 
   #introduction .name{
-    opacity: 0.8;
-
+    opacity: 0.9;
     font-size: 5em;
     color: whitesmoke;
 }
+@keyframes padding-left{
+    from{
+        padding-left: 20rem;
+    }
+}
+
 #introduction .designation{
 font-size: 2em;
-opacity: 0.8;
+opacity: 0.9;
     color: whitesmoke;
 }
 

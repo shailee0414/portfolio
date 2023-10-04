@@ -1,5 +1,5 @@
 .bold-title{
-    opacity: 0.7;
+    /* opacity: 0.9; */
     background-color: #f3ec78;
     background-image: linear-gradient(to right, #5be7b4, #b9f3f3);
     background-size: 100%;
@@ -12,7 +12,7 @@
     word-spacing: 0.7rem;
 }
 .thin-title{
-    opacity: 0.8;
+    /* opacity: 0.9; */
     color: #92dec2;
     font-size: 20px;
     font-weight: 600;
@@ -20,14 +20,14 @@
 
 }
 .medium-title{
-    opacity: 0.8;
+    /* opacity: 0.9; */
     word-spacing: 0.3rem;
     font-weight: bold;
     color: #92dec2;
     font-size: 25px;
 }
 .text{
-    color: #a6bdc1;
+    color: #bfd9de;
     font-size: 18px;
     font-weight:300 !important;
     line-height: 30px;
@@ -37,7 +37,7 @@
 .medium-text{
    
     font-size: 20px;
-    color: rgb(185, 217, 224);
+    color: rgb(222, 235, 229);
     font-weight: 600;
 }
 
@@ -85,10 +85,11 @@
     background-image: linear-gradient(to right, #5be7b4, #b9f3f3);
 }
 .background-green{
-    opacity: 0.8;
+    /* opacity: 0.8; */
     background-color: #5be7b4;
 }
-.border-clr{opacity: 0.8;
+.border-clr{
+    /* opacity: 0.8; */
     border: #5be7b4 2px solid ;
 }
 @media (max-width:700px){

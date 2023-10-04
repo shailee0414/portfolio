@@ -13,6 +13,10 @@ const Skills = ({ skills }) => {
               <div className="medium-text">
                 {skill?.skillName} - {skill?.skillValue}%{" "}
               </div>
+              <div
+                className="dot"
+                style={{ left: `${skill?.skillValue - 1}%` }}
+              ></div>
               <div className="progress">
                 <div
                   className="progress-bar progress-bar-success"
