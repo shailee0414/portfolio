@@ -10,6 +10,8 @@ import "./AbouteMe.css";
 import "../../app.css";
 
 const AboutMe = (profileData) => {
+console.log("Portofolio")
+
   const [iconColor, setIconColor] = useState();
   return (
     <div className="profile-container flex-column background-dark">
